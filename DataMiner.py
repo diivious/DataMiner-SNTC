@@ -4,6 +4,7 @@ import shutil
 import requests
 import csv
 import time
+import sys
 import math
 from configparser import ConfigParser
 from requests.exceptions import Timeout
@@ -27,9 +28,15 @@ baseUrl = ''
 loopCount = 0
 urlTimeout = 0
 
+# Function explain usage
+def usage():
+    print(f"Usage: python3 {sys.argv[0]} <customer>")
+    print(f"Args:")
+    print(f"   Optional named section for customer auth credentials.\n")
+    exit()
 
 # Function to load configuration from config.ini and continue or create a template if not found and exit
-def load_config():
+def load_config(customer):
     global clientId
     global clientSecret
     global scope
@@ -45,8 +52,17 @@ def load_config():
     if os.path.isfile(configFile):
         print('Config.ini file was found, continuing...')
         config.read(configFile)
-        clientId = (config['credentials']['client_id'])
-        clientSecret = (config['credentials']['client_secret'])
+
+        # check to see if credentials exist for a named customer.
+        # default customer config is 'credentials'
+        if not customer in config:
+            print(f"\nError: Credentials for Customer {customer} not found in config.ini")
+            usage()
+
+        # [credentials]
+        clientId = (config[customer]['client_id'])
+        clientSecret = (config[customer]['client_secret'])
+
         scope = int((config['settings']['scope']))
         customerID = int((config['settings']['customerID']))
         debug = int((config['settings']['debug']))
@@ -54,12 +70,13 @@ def load_config():
         baseUrl = (config['settings']['baseUrl'])
         loopCount = int((config['settings']['loopCount']))
         urlTimeout = int((config['settings']['urlTimeout']))
+
     else:
         print('Config.ini not found!!!!!!!!!!!!\nCreating config.ini...')
         print('\nNOTE: you must edit the config.ini file with your information\nExiting...')
-        config.add_section('credentials')
-        config.set('credentials', 'client_id', 'client_id')
-        config.set('credentials', 'client_secret', 'client_secret')
+        config.add_section(customer)
+        config.set(customer, 'client_id', 'client_id')
+        config.set(customer, 'client_secret', 'client_secret')
         config.add_section('settings')
         config.set('settings', '# scope of data to retrieve \n# 0 = Just get a list of  customers, '
                                '\n# 1 = Get data for all customers'
@@ -127,8 +144,8 @@ def get_sntc_token():
     else:
         print("Unable to retrieve a valid token\n"
               "Check config.ini and check your API Keys for accuracy")
-        print(f"Client ID: {clientId}")
-        print(f"Client Secret: {clientSecret}")
+        print(f"Client ID: [{clientId}]")
+        print(f"Client Secret: [{clientSecret}]")
         exit()
 
 
@@ -660,22 +677,44 @@ def get_all_data(customerid, customer):
     get_security_advisory_bulletins(customerid, customer, csv_output_dir)
 
 
-# Main branch
-load_config()
-print(f'\nScript is executing {loopCount} Time(s)')
-for count in range(0, loopCount):
-    print(f'Execution:{count + 1} of {loopCount}')
-    temp_storage()
-    get_sntc_token()
-    get_customers()
-    get_customer_data()
-    logging.debug(f'Script Completed {count + 1} time(s) successfully')
-    print(f'Script Completed {count + 1} time(s) successfully')
-    if count + 1 == loopCount:
-        # Clean exit
-        exit()
-    else:
-        # pause 5 sec between each itteration
-        print('\n\npausing for 2 secs')
-        logging.debug('=================================================================')
-        time.sleep(2)
+'''
+Begin main application control
+=======================================================================
+'''
+if __name__ == '__main__':
+    # defaults
+    customer = 'credentials'
+
+    # Check if an optional customer name was provided
+    if len(sys.argv) > 1:
+        customer = sys.argv[1]
+
+    # call function to load config.ini data into variables
+    load_config(customer)
+
+    # create a per-customer folder for saving data
+    if customer:
+        # Create the customers directory
+        os.makedirs(customer, exist_ok=True)
+        # Change into the directory
+        os.chdir(customer)
+
+    print(f'\nScript is executing {loopCount} Time(s)')
+    for count in range(0, loopCount):
+        print(f'Execution:{count + 1} of {loopCount}')
+        temp_storage()
+        get_sntc_token()
+        get_customers()
+        get_customer_data()
+        logging.debug(f'Script Completed {count + 1} time(s) successfully')
+        print(f'Script Completed {count + 1} time(s) successfully')
+        if count + 1 == loopCount:
+            # Clean exit
+            exit()
+        else:
+            # pause 5 sec between each itteration
+            print('\n\npausing for 2 secs')
+            logging.debug('=================================================================')
+            time.sleep(2)
+
+

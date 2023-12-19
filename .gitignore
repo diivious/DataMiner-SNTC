@@ -163,4 +163,10 @@ cython_debug/
 # Dev Env files
 *.vs
 *~
+*#
 
+# Project Temp files
+config.ini
+outputcsv
+outputjson
+temp
