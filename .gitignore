@@ -164,6 +164,7 @@ cython_debug/
 *.vs
 *~
 *#
+.#*
 
 # Project Temp files
 config.ini
