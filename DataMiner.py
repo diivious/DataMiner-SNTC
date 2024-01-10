@@ -131,15 +131,18 @@ def load_config(customer):
 
     else:
         print('Config.ini not found!!!!!!!!!!!!\nCreating config.ini...')
-        print('\nNOTE: you must edit the config.ini file with your information\nExiting...')
-        config.add_section(customer)
-        config.set(customer, 'clientId', 'clientId')
-        config.set(customer, 'clientSecret', 'clientSecret')
+        print('NOTE: you must edit the config.ini file with your information\nExiting...')
+
+        config.add_section('credentials')
+        config.set('credentials', 'clientId', 'clientId')
+        config.set('credentials', 'clientSecret', 'clientSecret')
+
         config.add_section('settings')
-        config.set('settings', '# data to retrieve - default value is 1 \n'
-                               '# 0 = Just get a list of  customers, \n' 
-                               '# 1 = Get data for all customers \n'
-                               '# 2 = Get data for just a selected customer, \n')
+        config.set('settings',
+                   '# data to retrieve -\n'
+                   '# 0 = Just get a list of  customers\n'
+                   '# 1 = Get data for all customers\n'
+                   '# 2 = Get data for just a selected customer: default', '1')
         config.set('settings', 'scope', '1')
         config.set('settings', '# If scope is 2, enter the customers ID and Name below default', '123456')
         config.set('settings', 'CustomerID', '123456')
