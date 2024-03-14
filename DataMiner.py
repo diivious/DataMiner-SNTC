@@ -185,11 +185,15 @@ def get_json_reply(url, tag):
             reply = json.loads(response.text)
             items = reply.get(tag, [])
 
-            logging.debug("\nSuccess on Try {tries}! \nContinuing.")
+            logging.debug(f"\nSuccess on Try {tries}! \nContinuing.")
             if tries > 1: print(f"\nSuccess on Try {tries}! \nContinuing.")
             return items
 
+        elif status_code == 400:
+            logging.errpr(f"..Aborting")
+            break
         elif status_code == 403:
+            logging.errpr(f"..Aborting")
             break
         
         # Handle some other error cases
@@ -215,6 +219,9 @@ def get_json_reply(url, tag):
                     print(f"{error_info}")
                     logging.warning(f"{error_info}....Skipping")
                 elif error_code == 'API_PARTY_002':
+                    print(f"{error_info}")
+                    logging.warning(f"{error_info}....Skipping")
+                elif error_code == 'API_EF_0032"':
                     print(f"{error_info}")
                     logging.warning(f"{error_info}....Skipping")
                 break
