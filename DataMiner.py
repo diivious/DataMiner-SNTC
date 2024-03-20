@@ -2,9 +2,6 @@
 #
 # adding Cisco DataMiner Module system path
 import sys
-sys.path.insert(0, '../cdm')
-
-# import library to use HTTP and JSON request
 import os
 import shutil
 import csv
@@ -54,19 +51,21 @@ environment = ''
 
 # File Variables
 configFile = 'config.ini'
-csv_output_dir = "outputcsv/"
-log_output_dir = "outputlog/"
-log_output_dir = "outputlog/"
+csv_output_dir = "csv/"
+json_output_dir = "json/"
+log_dir = "log/"
 temp_dir = "temp/"
-outputFormat = 3 	   # 1=both, 2=json, 3=CSV
+outputFormat = 1 	   # 1=both, 2=json, 3=CSV
+
+# Logging Variables
+fmt = "%(asctime)s %(name)10s %(levelname)8s: %(message)s"
+logfile = 'SNTC_DataMiner_log.txt'
 
 # Debug Variables
 scope = '1'
 customerID = 0
 debug = 0
-fmt = "%(asctime)s %(name)10s %(levelname)8s: %(message)s"
 testLoop = 0
-logfile = 'SNTC_DataMiner_log.txt'
 
 '''
 Begin defining functions
@@ -84,25 +83,25 @@ def init_logger(log_level):
         exit(1)
 
     # Setup log storage - incase needed
-    if os.path.isdir(log_output_dir):
-        shutil.rmtree(log_output_dir)
-    os.mkdir(log_output_dir)
+    if os.path.isdir(log_dir):
+        shutil.rmtree(log_dir)
+    os.mkdir(log_dir)
 
     # Set up logging based on the parsed log level
-    logging.basicConfig(filename=log_output_dir + 'SNTC.log', level=log_level,
+    logging.basicConfig(filename=log_dir + 'SNTC.log', level=log_level,
                         format='%(levelname)s:%(funcName)s: %(message)s')
     logger = logging.getLogger(__name__)
     return logger
 
 # Function explain usage
 def usage():
-    print(f"Usage: python3 {sys.argv[0]} <customer> -log=<LOG_LEVEL>")
+    print(f"Usage: python3 {sys.argv[0]} <partner> -log=<LOG_LEVEL>")
     print(f"Args:")
-    print(f"   Optional named section for customer auth credentials.\n")
+    print(f"   Optional named section for partner auth credentials.\n")
     sys.exit()
 
 # Function to load configuration from config.ini and continue or create a template if not found and exit
-def load_config(customer):
+def load_config(partner):
     global scope
     global customerID
     global debug
@@ -117,15 +116,15 @@ def load_config(customer):
         print('Config.ini file was found, continuing...')
         config.read(configFile)
 
-        # check to see if credentials exist for a named customer.
-        # default customer config is 'credentials'
-        if not customer in config:
-            print(f"\nError: Credentials for Customer {customer} not found in config.ini")
+        # check to see if credentials exist for a named partner.
+        # default partner config is 'credentials'
+        if not partner in config:
+            print(f"\nError: Credentials for Partner {partner} not found in config.ini")
             usage()
 
         # [credentials]
-        cdm.clientId = (config[customer]['clientId'])
-        cdm.clientSecret = (config[customer]['clientSecret'])
+        cdm.clientId = (config[partner]['clientId'])
+        cdm.clientSecret = (config[partner]['clientSecret'])
 
         # [Settings]
         cdm.tokenUrl = (config['settings']['tokenUrl'])
@@ -166,6 +165,14 @@ def load_config(customer):
         exit()
 
 # Function to retrieve raw data from endpoint
+def save_json_reply(items, json_filename):
+    if outputFormat == 1 or outputFormat == 2:
+        filename = cdm.filename(json_filename)
+        with open(filename, 'w') as json_file:
+            json.dump(items, json_file)
+        logging.debug(f'Saving {json_file.name}')
+
+# Function to retrieve raw data from endpoint
 def get_json_reply(url, tag):
     tries = 1
     response = []
@@ -190,10 +197,10 @@ def get_json_reply(url, tag):
             return items
 
         elif status_code == 400:
-            logging.errpr(f"..Aborting")
+            logging.error(f"..Aborting")
             break
         elif status_code == 403:
-            logging.errpr(f"..Aborting")
+            logging.error(f"..Aborting")
             break
         
         # Handle some other error cases
@@ -255,11 +262,11 @@ def get_customers():
                    x['theaterCode']]
         logging.debug(f'Found customer {listing[1]}')
         customers.append(listing)
-    with open(csv_output_dir + 'customers.csv', 'w', encoding='UTF8', newline='') as f:
+    with open('Customers.csv', 'w', encoding='UTF8', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(customerHeader)
         writer.writerows(customers)
-    print('Done!')
+    print('Done')
 
 
 # Function to retrieve a list of contracts
@@ -271,7 +278,8 @@ def get_contract_details(customerid, customername):
                        'billtoCity', 'billtoState', 'billtoPostalCode', 'billtoProvince', 'billtoCountry',
                        'billtoGuName', 'siteUseName', 'siteUseId', 'siteAddress1', 'siteCity', 'siteStateProvince',
                        'sitePostalCode', 'siteCountry', 'baseProductId']
-    csv_filename = csv_output_dir + customerid + 'Contracts_Details.csv'
+    csv_filename = csv_output_dir + customerid + '_Contracts_Details.csv'
+    json_filename = json_output_dir + customerid + '_Contracts_Details.json'
 
     print("           Contract Details List....", end="")
 
@@ -292,7 +300,11 @@ def get_contract_details(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(contractsHeader)
             writer.writerows(contracts)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
+
     else:
         print(f'Not Available')
 
@@ -315,6 +327,7 @@ def get_covered(customerid, customername):
                      'serviceLineId', 'serviceLineStatus', 'lineCustomerName', 'businessProcessName', 'entitledParty',
                      'installGUName']
     csv_filename = csv_output_dir + customerid + 'Covered_Assets.csv'
+    json_filename = json_output_dir + customerid + 'Covered_Assets.json'
 
     print("           Covered List....", end="")
 
@@ -345,6 +358,9 @@ def get_covered(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(coveredHeader)
             writer.writerows(covered)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -360,6 +376,7 @@ def get_not_covered(customerid, customername):
                         'installedatProvince', 'installedatCountry', 'warrantyType', 'warrantyStartDate',
                         'warrantyEndDate', 'neInstanceId', 'billtoPartyId']
     csv_filename = csv_output_dir + customerid + 'Not_Covered_Assets.csv'
+    json_filename = json_output_dir + customerid + 'Not_Covered_Assets.json'
 
     print("           Not Covered List....", end="")
 
@@ -378,6 +395,9 @@ def get_not_covered(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(notcoveredHeader)
             writer.writerows(notcovered)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -394,7 +414,8 @@ def get_network_elements(customerid, customername):
                              'sysLocation', 'sysObjectId', 'configRegister', 'configAvailability',
                              'configCollectionDate', 'imageName', 'bootstrapVersion', 'isManagedNe', 'userField1',
                              'userField2', 'userField3', 'userField4', 'macAddress']
-    csv_filename = csv_output_dir + customerid + 'Assets.csv'
+    csv_filename = csv_output_dir + customerid + '_Assets.csv'
+    json_filename = json_output_dir + customerid + '_Assets.json'
 
     print("           Network Elements List....", end="")
 
@@ -416,6 +437,9 @@ def get_network_elements(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(networkElementsHeader)
             writer.writerows(networkElements)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -425,7 +449,8 @@ def get_network_elements(customerid, customername):
 def get_inventory_groups(customerid, customername):
     inventory = []
     inventoryHeader = ['customerId', 'customerName', 'inventoryId', 'inventoryName']
-    csv_filename = csv_output_dir + customerid + 'Asset_Groups.csv'
+    csv_filename = csv_output_dir + customerid + '_Asset_Groups.csv'
+    json_filename = json_output_dir + customerid + '_Asset_Groups.json'
     
     print("           Inventory Groups List....", end="")
 
@@ -439,6 +464,9 @@ def get_inventory_groups(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(inventoryHeader)
             writer.writerows(inventory)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -455,6 +483,7 @@ def get_hardware(customerid, customername):
                       'formFactor', 'supportPage', 'visioStencilUrl', 'smallImageUrl', 'largeImageUrl',
                       'baseProductId', 'productReleaseDate', 'productDescription']
     csv_filename = csv_output_dir + customerid + '_Hardware.csv'
+    json_filename = json_output_dir + customerid + '_Hardware.json'
 
     print("           Hardware List....", end="")
 
@@ -475,6 +504,9 @@ def get_hardware(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(hardwareHeader)
             writer.writerows(hardware)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -487,6 +519,7 @@ def get_hardware_eol(customerid, customername):
                          'currentHwEolMilestone', 'nextHwEolMilestone', 'hwInstanceId', 'productId',
                          'currentHwEolMilestoneDate', 'nextHwEolMilestoneDate', 'hwEolInstanceId']
     csv_filename = csv_output_dir + customerid + '_Hardware_EOL.csv'
+    json_filename = json_output_dir + customerid + '_Hardware_EOL.json'
 
     print("           Hardware EOL List....", end="")
     url = f'{baseUrl}product-alerts/hardware-eol?customerId={customerid}'
@@ -502,6 +535,9 @@ def get_hardware_eol(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(hardwareEOLHeader)
             writer.writerows(hardwareEOL)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -516,6 +552,7 @@ def get_hardware_eol_bulletins(customerid, customername):
                                   'eoNewServiceAttachmentDate', 'eoServiceContractRenewalDate', 'lastDateOfSupport',
                                   'eoVulnerabilitySecuritySupport', 'url']
     csv_filename = csv_output_dir + customerid + '_Hardware_Bulletins.csv'
+    json_filename = json_output_dir + customerid + '_Hardware_Bulletins.json'
 
     print("           Hardware EOL Bulletins List....", end="")
     url = f'{baseUrl}product-alerts/hardware-eol-bulletins?customerId={customerid}'
@@ -533,6 +570,9 @@ def get_hardware_eol_bulletins(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(hardwareEOLBulletinsHeader)
             writer.writerows(hardwareEOLBulletins)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -544,6 +584,7 @@ def get_software(customerid, customername):
     softwareHeader = ['customerid', 'customername', 'managedNeInstanceId', 'inventoryName', 'swType', 'swVersion',
                       'swMajorVersion', 'swCategory', 'swStatus', 'swName']
     csv_filename = csv_output_dir + customerid + '_Software.csv'
+    json_filename = json_output_dir + customerid + '_Software.json'
 
     print("           Software List....", end="")
     url = f'{baseUrl}inventory/software?customerId={customerid}'
@@ -558,6 +599,9 @@ def get_software(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(softwareHeader)
             writer.writerows(software)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -570,6 +614,7 @@ def get_software_eol(customerid, customername):
                           'swType', 'currentSwEolMilestone', 'nextSwEolMilestone', 'swVersion',
                           'currentSwEolMilestoneDate', 'nextSwEolMilestoneDate', 'swEolInstanceId']
     csv_filename = csv_output_dir + customerid + '_Software_EOL.csv'
+    json_filename = json_output_dir + customerid + '_Software_EOL.json'
     
     print("           Software EOL List....", end="")
 
@@ -587,6 +632,9 @@ def get_software_eol(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(softewareEOLHeader)
             writer.writerows(softewareEOL)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -600,6 +648,7 @@ def get_software_eol_bulletins(customerid, customername):
                                    'eoLifeAnnouncementDate', 'eoSaleDate', 'eoSwMaintenanceReleasesDate',
                                    'eoVulnerabilitySecuritySupport', 'lastDateOfSupport', 'url']
     csv_filename = csv_output_dir + customerid + '_Software_Bulletins.csv'
+    json_filename = json_output_dir + customerid + '_Software_Bulletins.json'
 
     print("           Software EOL Bulletins List....", end="")
 
@@ -617,6 +666,9 @@ def get_software_eol_bulletins(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(softewareEOLBulletinsHeader)
             writer.writerows(softewareEOLBulletins)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -628,6 +680,7 @@ def get_fieldnotices(customerid, customername):
     fieldNoticesHeader = ['customerid', 'customername', 'neInstanceId', 'managedNeInstanceId',
                           'vulnerabilityStatus', 'vulnerabilityReason', 'hwInstanceId', 'bulletinNumber']
     csv_filename = csv_output_dir + customerid + '_Field_Notices.csv'
+    json_filename = json_output_dir + customerid + '_Field_Notices.json'
     
     print("           Field Notices List....", end="")
 
@@ -643,6 +696,9 @@ def get_fieldnotices(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(fieldNoticesHeader)
             writer.writerows(fieldNotices)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -655,6 +711,7 @@ def get_fieldnoticebulletins(customerid, customername):
                                   'fieldNoticeType', 'bulletinTitle', 'bulletinLastUpdated',
                                   'alertAutomationCaveat', 'url', 'bulletinSummary']
     csv_filename = csv_output_dir + customerid + '_Feild_Notice_Bulletins.csv'
+    json_filename = json_output_dir + customerid + '_Feild_Notice_Bulletins.json'
 
     print("           Field Notice Bulletins List....", end="")
 
@@ -671,6 +728,9 @@ def get_fieldnoticebulletins(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(fieldNoticeBulletinsHeader)
             writer.writerows(fieldNoticeBulletins)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -682,6 +742,7 @@ def get_security_advisory(customerid, customername):
     securityAdvisoryHeader = ['customerid', 'customername', 'neInstanceId', 'managedNeInstanceId', 'hwInstanceId',
                               'vulnerabilityStatus', 'vulnerabilityReason', 'securityAdvisoryInstanceId']
     csv_filename = csv_output_dir + customerid + '_Security_Advisories.csv'
+    json_filename = json_output_dir + customerid + '_Security_Advisories.json'
 
     print("           Security Advisory List....", end="")
 
@@ -697,6 +758,9 @@ def get_security_advisory(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(securityAdvisoryHeader)
             writer.writerows(securityAdvisory)
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
         print('Done')
     else:
         print(f'Not Available')
@@ -710,6 +774,7 @@ def get_security_advisory_bulletins(customerid, customername):
                                        'alertAutomationCaveat', 'cveId', 'cvssBaseScore', 'cvssTemporalScore',
                                        'ciscoBugIds']
     csv_filename = csv_output_dir + customerid + '_Security_Advisory__Bulletins.csv'
+    json_filename = json_output_dir + customerid + '_Security_Advisory__Bulletins.json'
 
     print("           Security Advisory Bulletins List....", end="")
 
@@ -727,7 +792,10 @@ def get_security_advisory_bulletins(customerid, customername):
             writer = csv.writer(f)
             writer.writerow(securityAdvisoryBulletinsHeader)
             writer.writerows(securityAdvisoryBulletins)
-        print('Done\n')
+
+        # save the JSON response if requested
+        save_json_reply(items, json_filename)
+        print('Done')
     else:
         print(f'Not Available')
 
@@ -738,27 +806,34 @@ def get_customer_data():
     if scope == 0:
         logging.debug(f'Script Completed successfully')
         exit()
-    elif scope == 1:
-        with open(csv_output_dir + 'Customers.csv', 'r') as customers:
+    else:
+        with open('Customers.csv', 'r') as customers:
             customerList = csv.DictReader(customers)
             for row in customerList:
                 customerId = row['customerId']
                 customer = row['customerName']
-                get_all_data(customerId, customer)
-    elif scope == 2:
-        with open(csv_output_dir + 'Customers.csv', 'r') as customers:
-            customerList = csv.DictReader(customers)
-            for row in customerList:
-                customerId = row['customerId']
-                customer = row['customerName']
-                if int(customerId) == customerID:
+                if scope == 1:
                     get_all_data(str(customerId), customer)
-
+                elif scope == 2:
+                    if int(customerId) == customerID:
+                        get_all_data(str(customerId), customer)
+                #if
+            # for
+        # with
+    #else
 
 # Function to retrieve data for all customers
 def get_all_data(customerid, customer):
-    print(f'  Scanning {customer}')
+    print(f'  Scanning {customer} :: {customerid}')
 
+    current_dir = os.getcwd()
+
+    # Create the customers directory (if needed) and change to it
+    os.makedirs(customer, exist_ok=True)
+    os.chdir(customer)
+    # create output directories
+    cdm.storage(csv_output_dir, json_output_dir, None)
+    
     get_contract_details(customerid, customer)
     get_covered(customerid, customer)
     get_not_covered(customerid, customer)
@@ -775,6 +850,10 @@ def get_all_data(customerid, customer):
     get_security_advisory(customerid, customer)
     get_security_advisory_bulletins(customerid, customer)
 
+    # back to the partner directory
+    os.chdir(current_dir)
+
+    
 '''
 Begin main application control
 =======================================================================
@@ -784,27 +863,25 @@ if __name__ == '__main__':
 
     # setup parser
     parser = argparse.ArgumentParser(description="Your script description.")
-    parser.add_argument("customer", nargs='?', default='credentials', help="Customer name")
+    parser.add_argument("partner", nargs='?', default='credentials', help="Partner name")
     parser.add_argument("-log", "--log-level", default="DEBUG", help="Set the logging level (default: CRITICAL)")
 
     # Parse command-line arguments
     args = parser.parse_args()
 
     # call function to load config.ini data into variables
-    customer = args.customer
-    load_config(customer)
+    partner = args.partner
+    load_config(partner)
 
-    # create a per-customer folder for saving data
-    if customer:
-        # Create the customers directory
-        os.makedirs(customer, exist_ok=True)
+    # create a per-partner folder for saving data
+    if partner:
+        # Create the partners directory
+        os.makedirs(partner, exist_ok=True)
         # Change into the directory
-        os.chdir(customer)
+        os.chdir(partner)
 
     # delete temp and output directories and recreate before every run
-    json_dir = json_output_dir if outputFormat == 1 or outputFormat == 2 else None
-    csv_dir = csv_output_dir if outputFormat == 1 or outputFormat == 3 else None
-    cdm.storage(csv_dir, json_dir, temp_dir)
+    cdm.storage(None, None, temp_dir)
 
     # setup the logging level
     logger = init_logger(args.log_level.upper())

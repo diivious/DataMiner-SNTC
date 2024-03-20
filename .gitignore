@@ -159,6 +159,7 @@ cython_debug/
 *.xlsb
 *.xlsm
 *.xlsx
+*.json
 
 # Dev Env files
 *.vs
@@ -168,6 +169,4 @@ cython_debug/
 
 # Project Temp files
 config.ini
-outputcsv
-outputjson
 temp
