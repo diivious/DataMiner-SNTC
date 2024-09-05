@@ -1,0 +1,994 @@
+successTracksId,successTrackName,useCaseName,useCaseId,currentPitstopName,pitStopName,pitstopActionName,pitstopActionId
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Adopt,Deploy advanced features of Secure DIA,WAN_SDIA_ADO_01
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Adopt,Deploy basic features of other SD-WAN use cases,WAN_SDIA_ADO_02
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Engage,Operationalize the network at scale,WAN_SDIA_ENG_01
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Engage,Learn how to integrate new and advanced features into the design,WAN_SDIA_ENG_02
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Implement,Develop the Secure DIA Device Templates and Policies,WAN_SDIA_IMP_01
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Implement,Configure your Cisco SD-WAN Secure DIA Security Policies,WAN_SDIA_IMP_02
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Implement,Deploy your Cisco SD-WAN Secure DIA Policy,WAN_SDIA_IMP_03
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Onboard,Learn about Cisco SD-WAN Secure DIA deployment,WAN_SDIA_ONB_01
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Onboard,Plan your SD-WAN Secure DIA deployment,WAN_SDIA_ONB_02
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Onboard,Complete your Cisco SD-WAN Secure DIA Installation - Licencisng Verification,WAN_SDIA_ONB_03
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Onboard,Complete your Cisco SD-WAN Secure DIA Installation - Version Check for Intended Features,WAN_SDIA_ONB_05
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Optimize,Optimize performance and availability of the Secure DIA deployment,WAN_SDIA_OPT_01
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Use,Scale the deployment - Deploy Secure DIA policy across additional sites,WAN_SDIA_USE_01
+40317380,WAN,Secure Direct Internet Access,41269754,Adopt,Use,Monitor and Troubleshoot Secure DIA deployment,WAN_SDIA_USE_02
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Adopt,Planning your Multi-site and Multi-pod Environment,DCN_ACI_DN_ADP_1
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Adopt,Scale the Network Infrastructure,DCN_ACI_DN_ADP_2
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Adopt,Learn about Multi-site and NDO Advanced Features,DCN_ACI_DN_ADP_3
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Adopt,Use new automation features and functionality,DCN_ACI_DN_ADP_4
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Engage,Learn ACI Fabric Performance Tuning Best Practices,DCN_ACI_DN_ENG_1
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Engage,Scale and Operate your Network Infrastructure,DCN_ACI_DN_ENG_2
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Engage,Explore Day2 Features,DCN_ACI_DN_ENG_3
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Engage,Learn how to use automation to scale ACI Fabric,DCN_ACI_DN_ENG_4
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Implement,Set Up Your Fabric and Build the Logical Configuration,DCN_ACI_DN_IMP_1
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Implement,Learn about Cisco ACI Deployment Best Practices,DCN_ACI_DN_IMP_2
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Implement,Activate Licenses and Move the ACI Fabric into Production,DCN_ACI_DN_IMP_3
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Implement,Review ACI Distributed Networking deployment options,DCN_ACI_DN_IMP_4
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Implement,Install Preferred Automation Platform,DCN_ACI_DN_IMP_5
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Onboard,Learn about Cisco ACI Distributed Networking deployment options,DCN_ACI_DN_ONB_1
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Onboard,Plan your Cisco ACI Distributed Network deployment,DCN_ACI_DN_ONB_2
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Onboard,Install the Hardware,DCN_ACI_DN_ONB_3
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Onboard,Learn about Cisco ACI Automation,DCN_ACI_DN_ONB_4
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Optimize,Optimize and Upgrade the Network,DCN_ACI_DN_OPT_1
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Optimize,Upgrade using NDO,DCN_ACI_DN_OPT_2
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Optimize,Deep Dive into NDO Fabric Upgrades,DCN_ACI_DN_OPT_3
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Optimize,Perform a Health Check on Multisite Fabrics,DCN_ACI_DN_OPT_4
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Use,Scale your Network Infrastructure,DCN_ACI_DN_USE_3
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Use,Learn about ACI's Remote Leaf Feature,DCN_ACI_DN_USE_4
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Use,Expand Knowledge of NDO Capabilities,DCN_ACI_DN_USE_5
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Use,Configure Cisco ACI System Backups,DCN_ACI_DN_USE_6
+40485321,Cloud Network,Distributed Networking,40485330,Adopt,Use,Automate Workflows and Playbooks,DCN_ACI_DN_USE_7
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Adopt,Leverage Advanced Topics,DCC_SOP_ADP_1
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Adopt,Login in to your Intersight Dashboard,DCC_SOP_ADP_2
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Engage,Monitor Compute Environment,DCC_SOP_ENG_1
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Engage,Login in to your Intersight Dashboard,DCC_SOP_ENG_2
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Implement,Plan the deployment,DCC_SOP_IMP_1
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Onboard,Understand Cisco Intersight,DCC_SOP_ONB_1
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Onboard,Understand Cisco Intersight Use Cases,DCC_SOP_ONB_2
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Onboard,Plan Architecture Transformation,DCC_SOP_ONB_3
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Onboard,Create Intersight Account,DCC_SOP_ONB_4
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Optimize,Implement Performance Tuning Best Practices,DCC_SOP_OPT_1
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Optimize,Leverage Advanced Topics,DCC_SOP_OPT_2
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Use,Login in to your Intersight Dashboard,DCC_SOP_USE_1
+50320048,Data Center Compute,Simplified Operations,50320051,Adopt,Use,Claim Devices or leverage licenses,DCC_SOP_USE_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Implement,Onboard Client Endpoints,IBN_CDC_NPI_IMP_7
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_NPI_IMP_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_NPI_IMP_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_IMP_8
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_NPI_IMP_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_NPI_IMP_4
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Implement,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_IMP_5
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_IMP_6
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Adopt,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ADO_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ADO_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Adopt,Scale your Network Infrastructure,IBN_CDC_NPI_ADO_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_USE_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Use,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_USE_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_USE_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Onboard,Complete your Catalyst Center Installation,IBN_CDC_NPI_ONB_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Onboard,Learn about Catalyst Center,IBN_CDC_NPI_ONB_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Onboard,Plan your Catalyst Center Project,IBN_CDC_NPI_ONB_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Engage,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ENG_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ENG_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_ENG_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_OPT_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Adopt,Optimize,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_OPT_1
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_ADO_1
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_ADO_2
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_ENG_1
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_ENG_2
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_CNV_IMP_1
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_CNV_IMP_2
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNV_IMP_3
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_CNV_IMP_4
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_IMP_5
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Implement,Onboard Client Endpoints,IBN_CDC_CNV_IMP_6
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_IMP_7
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Onboard,Plan your Catalyst Center Project,IBN_CDC_CNV_ONB_1
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Onboard,Learn about Catalyst Center,IBN_CDC_CNV_ONB_2
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Onboard,Complete your Catalyst Center Installation,IBN_CDC_CNV_ONB_3
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_OPT_1
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_OPT_2
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_USE_1
+38396885,Campus Network,Campus Network Visibility,58819938,Engage,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_USE_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Adopt,Monitor Network Health,IBN_CDC_OAI_ADO_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Adopt,Monitor Client Health,IBN_CDC_OAI_ADO_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Adopt,Monitor Application Health,IBN_CDC_OAI_ADO_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Adopt,Analyze and Troubleshoot the Network,IBN_CDC_OAI_ADO_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Adopt,Monitor Network Trends and Issues,IBN_CDC_OAI_ADO_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_ADO_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_ADO_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Adopt,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_ADO_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Engage,Monitor Network Health,IBN_CDC_OAI_ENG_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Engage,Monitor Client Health,IBN_CDC_OAI_ENG_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Engage,Monitor Application Health,IBN_CDC_OAI_ENG_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Engage,Analyze and Troubleshoot the Network,IBN_CDC_OAI_ENG_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Engage,Monitor Network Trends and Issues,IBN_CDC_OAI_ENG_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_ENG_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_ENG_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Engage,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_ENG_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Engage,Monitor and troubleshoot your network with Machine Reasoning Engine,IBN_CDC_OAI_ENG_9
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_OAI_IMP_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_OAI_IMP_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_OAI_IMP_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_OAI_IMP_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Implement,Configure Assurance Integrations and Reporting,IBN_CDC_OAI_IMP_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_IMP_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Implement,Onboard Client Endpoints,IBN_CDC_OAI_IMP_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_IMP_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Onboard,Plan your Catalyst Center Project,IBN_CDC_OAI_ONB_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Onboard,Learn about Catalyst Center,IBN_CDC_OAI_ONB_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Onboard,Complete your Catalyst Center Installation,IBN_CDC_OAI_ONB_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_OPT_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_OPT_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Use,Monitor Network Health,IBN_CDC_OAI_USE_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Use,Monitor Client Health,IBN_CDC_OAI_USE_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Use,Monitor Application Health,IBN_CDC_OAI_USE_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Use,Analyze and Troubleshoot the Network,IBN_CDC_OAI_USE_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Use,Monitor Network Trends and Issues,IBN_CDC_OAI_USE_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_USE_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_USE_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Use,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_USE_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Engage,Use,Monitor and troubleshoot your network with Machine Reasoning Engine,IBN_CDC_OAI_USE_9
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Adopt,View and Manage Your Network Inventory,IBN_CDC_CNAU_ADO_1
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Adopt,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_ADO_2
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Adopt,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_ADO_3
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Adopt,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_ADO_4
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_ADO_5
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_ADO_6
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Engage,View and Manage Your Network Inventory,IBN_CDC_CNAU_ENG_1
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Engage,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_ENG_2
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Engage,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_ENG_3
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Engage,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_ENG_4
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_ENG_5
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_ENG_6
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_CNAU_IMP_1
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_CNAU_IMP_2
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNAU_IMP_3
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_CNAU_IMP_4
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Implement,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_IMP_5
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_IMP_6
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Implement,Onboard Client Endpoints,IBN_CDC_CNAU_IMP_7
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_IMP_8
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Onboard,Plan your Catalyst Center Project,IBN_CDC_CNAU_ONB_1
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Onboard,Learn about Catalyst Center,IBN_CDC_CNAU_ONB_2
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Onboard,Complete your Catalyst Center Installation,IBN_CDC_CNAU_ONB_3
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Optimize,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_OPT_1
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_OPT_2
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Use,View and Manage Your Network Inventory,IBN_CDC_CNAU_USE_1
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Use,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_USE_2
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Use,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_USE_3
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Use,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_USE_4
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_USE_5
+38396885,Campus Network,Campus Network Automation,58820009,Engage,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_USE_6
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Adopt,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ADO_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ADO_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Adopt,Scale your Network Infrastructure,IBN_CDC_NPI_ADO_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Engage,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ENG_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ENG_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_ENG_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_NPI_IMP_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_NPI_IMP_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_NPI_IMP_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_NPI_IMP_4
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Implement,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_IMP_5
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_IMP_6
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Implement,Onboard Client Endpoints,IBN_CDC_NPI_IMP_7
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_IMP_8
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Onboard,Plan your Catalyst Center Project,IBN_CDC_NPI_ONB_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Onboard,Learn about Catalyst Center,IBN_CDC_NPI_ONB_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Onboard,Complete your Catalyst Center Installation,IBN_CDC_NPI_ONB_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Optimize,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_OPT_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_OPT_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Use,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_USE_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_USE_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Engage,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_USE_3
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Adopt,Leverage Advanced Topics,DCC_SOP_ADP_1
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Adopt,Login in to your Intersight Dashboard,DCC_SOP_ADP_2
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Engage,Monitor Compute Environment,DCC_SOP_ENG_1
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Engage,Login in to your Intersight Dashboard,DCC_SOP_ENG_2
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Implement,Plan the deployment,DCC_SOP_IMP_1
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Onboard,Understand Cisco Intersight,DCC_SOP_ONB_1
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Onboard,Understand Cisco Intersight Use Cases,DCC_SOP_ONB_2
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Onboard,Plan Architecture Transformation,DCC_SOP_ONB_3
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Onboard,Create Intersight Account,DCC_SOP_ONB_4
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Optimize,Implement Performance Tuning Best Practices,DCC_SOP_OPT_1
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Optimize,Leverage Advanced Topics,DCC_SOP_OPT_2
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Use,Login in to your Intersight Dashboard,DCC_SOP_USE_1
+50320048,Data Center Compute,Simplified Operations,50320051,Engage,Use,Claim Devices or leverage licenses,DCC_SOP_USE_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_ADP_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_ADP_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_ENG_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_ENG_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Engage,Scale your capabilities,IBN_SDA_CNS_ENG_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_SDA_CNS_IMP_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Implement,Configure your Catalyst Center Administration Best Practices,IBN_SDA_CNS_IMP_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_SDA_CNS_IMP_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_SDA_CNS_IMP_4
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Implement,Start you SD-Access Journey by Configuring its Pre-requisites,IBN_SDA_CNS_IMP_5
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Implement,Build your SD-Access Overlay Network with Catalyst Center,IBN_SDA_CNS_IMP_6
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_IMP_7
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Implement,Onboard Client Endpoints,IBN_SDA_CNS_IMP_8
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_IMP_9
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Onboard,Plan your Catalyst Center and SD-Access Project,IBN_SDA_CNS_ONB_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Onboard,Learn about Catalyst Center and SD-Access,IBN_SDA_CNS_ONB_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Onboard,Complete your Catalyst Center Installation,IBN_SDA_CNS_ONB_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_OPT_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_OPT_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Use,Enable Additional SD-Access Features,IBN_SDA_CNS_USE_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Use,Install your Cisco ISE or AAA Servers and Integrate with Catalyst Center,IBN_SDA_CNS_USE_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Use,Setup your Micro-Segmentation Pre-requisites,IBN_SDA_CNS_USE_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Use,Build and Optimize your Micro-Segmentation Strategy,IBN_SDA_CNS_USE_4
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_USE_5
+38396885,Campus Network,Campus Network Segmentation,39304067,Implement,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_USE_6
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_ADO_1
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_ADO_2
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_ENG_1
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_ENG_2
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_CNV_IMP_1
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_CNV_IMP_2
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNV_IMP_3
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_CNV_IMP_4
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_IMP_5
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Implement,Onboard Client Endpoints,IBN_CDC_CNV_IMP_6
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_IMP_7
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Onboard,Plan your Catalyst Center Project,IBN_CDC_CNV_ONB_1
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Onboard,Learn about Catalyst Center,IBN_CDC_CNV_ONB_2
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Onboard,Complete your Catalyst Center Installation,IBN_CDC_CNV_ONB_3
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_OPT_1
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_OPT_2
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_USE_1
+38396885,Campus Network,Campus Network Visibility,58819938,Implement,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_USE_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Adopt,Monitor Network Health,IBN_CDC_OAI_ADO_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Adopt,Monitor Client Health,IBN_CDC_OAI_ADO_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Adopt,Monitor Application Health,IBN_CDC_OAI_ADO_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Adopt,Analyze and Troubleshoot the Network,IBN_CDC_OAI_ADO_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Adopt,Monitor Network Trends and Issues,IBN_CDC_OAI_ADO_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_ADO_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_ADO_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Adopt,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_ADO_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Engage,Monitor Network Health,IBN_CDC_OAI_ENG_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Engage,Monitor Client Health,IBN_CDC_OAI_ENG_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Engage,Monitor Application Health,IBN_CDC_OAI_ENG_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Engage,Analyze and Troubleshoot the Network,IBN_CDC_OAI_ENG_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Engage,Monitor Network Trends and Issues,IBN_CDC_OAI_ENG_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_ENG_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_ENG_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Engage,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_ENG_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Engage,Monitor and troubleshoot your network with Machine Reasoning Engine,IBN_CDC_OAI_ENG_9
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_OAI_IMP_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_OAI_IMP_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_OAI_IMP_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_OAI_IMP_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Implement,Configure Assurance Integrations and Reporting,IBN_CDC_OAI_IMP_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_IMP_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Implement,Onboard Client Endpoints,IBN_CDC_OAI_IMP_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_IMP_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Onboard,Plan your Catalyst Center Project,IBN_CDC_OAI_ONB_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Onboard,Learn about Catalyst Center,IBN_CDC_OAI_ONB_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Onboard,Complete your Catalyst Center Installation,IBN_CDC_OAI_ONB_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_OPT_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_OPT_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Use,Monitor Network Health,IBN_CDC_OAI_USE_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Use,Monitor Client Health,IBN_CDC_OAI_USE_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Use,Monitor Application Health,IBN_CDC_OAI_USE_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Use,Analyze and Troubleshoot the Network,IBN_CDC_OAI_USE_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Use,Monitor Network Trends and Issues,IBN_CDC_OAI_USE_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_USE_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_USE_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Use,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_USE_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Implement,Use,Monitor and troubleshoot your network with Machine Reasoning Engine,IBN_CDC_OAI_USE_9
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Adopt,View and Manage Your Network Inventory,IBN_CDC_CNAU_ADO_1
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Adopt,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_ADO_2
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Adopt,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_ADO_3
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Adopt,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_ADO_4
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_ADO_5
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_ADO_6
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Engage,View and Manage Your Network Inventory,IBN_CDC_CNAU_ENG_1
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Engage,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_ENG_2
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Engage,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_ENG_3
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Engage,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_ENG_4
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_ENG_5
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_ENG_6
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_CNAU_IMP_1
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_CNAU_IMP_2
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNAU_IMP_3
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_CNAU_IMP_4
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Implement,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_IMP_5
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_IMP_6
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Implement,Onboard Client Endpoints,IBN_CDC_CNAU_IMP_7
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_IMP_8
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Onboard,Plan your Catalyst Center Project,IBN_CDC_CNAU_ONB_1
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Onboard,Learn about Catalyst Center,IBN_CDC_CNAU_ONB_2
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Onboard,Complete your Catalyst Center Installation,IBN_CDC_CNAU_ONB_3
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Optimize,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_OPT_1
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_OPT_2
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Use,View and Manage Your Network Inventory,IBN_CDC_CNAU_USE_1
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Use,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_USE_2
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Use,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_USE_3
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Use,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_USE_4
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_USE_5
+38396885,Campus Network,Campus Network Automation,58820009,Implement,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_USE_6
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Adopt,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ADO_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ADO_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Adopt,Scale your Network Infrastructure,IBN_CDC_NPI_ADO_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Engage,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ENG_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ENG_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_ENG_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_NPI_IMP_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_NPI_IMP_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_NPI_IMP_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_NPI_IMP_4
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Implement,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_IMP_5
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_IMP_6
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Implement,Onboard Client Endpoints,IBN_CDC_NPI_IMP_7
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_IMP_8
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Onboard,Plan your Catalyst Center Project,IBN_CDC_NPI_ONB_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Onboard,Learn about Catalyst Center,IBN_CDC_NPI_ONB_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Onboard,Complete your Catalyst Center Installation,IBN_CDC_NPI_ONB_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Optimize,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_OPT_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_OPT_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Use,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_USE_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_USE_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Implement,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_USE_3
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Adopt,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_ADO_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Adopt,Scale your Network Infrastructure,IBN_CDC_CNT_ADO_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Engage,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_ENG_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Engage,Scale your Network Infrastructure,IBN_CDC_CNT_ENG_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Implement,Configure your Catayst Center High Availability and Basic System Settings,IBN_CDC_CNT_IMP_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Implement,Configure your Catayst Center Administration Best Practices,IBN_CDC_CNT_IMP_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Implement,Create your Catayst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNT_IMP_3
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Implement,Add Network Devices to Catayst Center Inventory and Assign them to a Site,IBN_CDC_CNT_IMP_4
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Implement,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_IMP_5
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Implement,Onboard Client Endpoints,IBN_CDC_CNT_IMP_6
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Onboard,Learn about Catayst Center,IBN_CDC_CNT_ONB_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Onboard,Plan your Catayst Center Project,IBN_CDC_CNT_ONB_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Onboard,Complete your Catayst Center Installation,IBN_CDC_CNT_ONB_3
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Optimize,Integrate Catayst Center in Ongoing Network Operations Processes,IBN_CDC_CNT_OPT_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Optimize,Upgrade Catayst Center,IBN_CDC_CNT_OPT_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Use,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_USE_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Implement,Use,Scale your Network Infrastructure,IBN_CDC_CNT_USE_2
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Engage,Create Named Policies To Customize IWO,DCC_WO_ENG_2
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Engage,Create A What-If Plan Scenario And Continue To Execute More Actions,DCC_WO_ENG_1
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Optimize,Check If Auto-Placement Policy Has Been Enabled,DCC_WO_OPT_2
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Optimize,Execute Resize Down Actions,DCC_WO_OPT_1
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Onboard,Understand Cisco Intersight Workload Optimizer,DCC_WO_ONB_1
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Onboard,Understand Cisco Intersight Workload Optimizer Use Cases,DCC_WO_ONB_2
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Onboard,Create Your Intersight Account,DCC_WO_ONB_3
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Implement,Plan Your Deployment,DCC_WO_IMP_1
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Implement,Plan A List Of Targets To Claim,DCC_WO_IMP_2
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Implement,Install Cisco Intersight Assist Virtual Appliance,DCC_WO_IMP_3
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Adopt,Execute Move Actions In IWO,DCC_WO_ADO_2
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Adopt,Create A What-If Plan Scenario,DCC_WO_ADO_1
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Adopt,Execute Resize Actions In IWO,DCC_WO_ADO_3
+50320048,Data Center Compute,Workload Optimization,50320053,Implement,Use,Analyze The IWO Generated Resource Service Chain Mappings And Pending Actions For IWO Targets,DCC_WO_USE_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_ADP_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_ADP_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_ENG_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_ENG_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Engage,Scale your capabilities,IBN_SDA_CNS_ENG_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_SDA_CNS_IMP_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Implement,Configure your Catalyst Center Administration Best Practices,IBN_SDA_CNS_IMP_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_SDA_CNS_IMP_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_SDA_CNS_IMP_4
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Implement,Start you SD-Access Journey by Configuring its Pre-requisites,IBN_SDA_CNS_IMP_5
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Implement,Build your SD-Access Overlay Network with Catalyst Center,IBN_SDA_CNS_IMP_6
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_IMP_7
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Implement,Onboard Client Endpoints,IBN_SDA_CNS_IMP_8
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_IMP_9
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Onboard,Plan your Catalyst Center and SD-Access Project,IBN_SDA_CNS_ONB_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Onboard,Learn about Catalyst Center and SD-Access,IBN_SDA_CNS_ONB_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Onboard,Complete your Catalyst Center Installation,IBN_SDA_CNS_ONB_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_OPT_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_OPT_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Use,Enable Additional SD-Access Features,IBN_SDA_CNS_USE_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Use,Install your Cisco ISE or AAA Servers and Integrate with Catalyst Center,IBN_SDA_CNS_USE_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Use,Setup your Micro-Segmentation Pre-requisites,IBN_SDA_CNS_USE_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Use,Build and Optimize your Micro-Segmentation Strategy,IBN_SDA_CNS_USE_4
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_USE_5
+38396885,Campus Network,Campus Network Segmentation,39304067,Onboard,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_USE_6
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_ADO_1
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_ADO_2
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_ENG_1
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_ENG_2
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_CNV_IMP_1
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_CNV_IMP_2
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNV_IMP_3
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_CNV_IMP_4
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_IMP_5
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Implement,Onboard Client Endpoints,IBN_CDC_CNV_IMP_6
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_IMP_7
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Onboard,Plan your Catalyst Center Project,IBN_CDC_CNV_ONB_1
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Onboard,Learn about Catalyst Center,IBN_CDC_CNV_ONB_2
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Onboard,Complete your Catalyst Center Installation,IBN_CDC_CNV_ONB_3
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_OPT_1
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_OPT_2
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_USE_1
+38396885,Campus Network,Campus Network Visibility,58819938,Onboard,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_USE_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Adopt,Monitor Network Health,IBN_CDC_OAI_ADO_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Adopt,Monitor Client Health,IBN_CDC_OAI_ADO_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Adopt,Monitor Application Health,IBN_CDC_OAI_ADO_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Adopt,Analyze and Troubleshoot the Network,IBN_CDC_OAI_ADO_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Adopt,Monitor Network Trends and Issues,IBN_CDC_OAI_ADO_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_ADO_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_ADO_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Adopt,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_ADO_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Engage,Monitor Network Health,IBN_CDC_OAI_ENG_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Engage,Monitor Client Health,IBN_CDC_OAI_ENG_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Engage,Monitor Application Health,IBN_CDC_OAI_ENG_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Engage,Analyze and Troubleshoot the Network,IBN_CDC_OAI_ENG_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Engage,Monitor Network Trends and Issues,IBN_CDC_OAI_ENG_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_ENG_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_ENG_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Engage,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_ENG_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Engage,Monitor and troubleshoot your network with Machine Reasoning Engine,IBN_CDC_OAI_ENG_9
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_OAI_IMP_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_OAI_IMP_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_OAI_IMP_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_OAI_IMP_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Implement,Configure Assurance Integrations and Reporting,IBN_CDC_OAI_IMP_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_IMP_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Implement,Onboard Client Endpoints,IBN_CDC_OAI_IMP_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_IMP_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Onboard,Plan your Catalyst Center Project,IBN_CDC_OAI_ONB_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Onboard,Learn about Catalyst Center,IBN_CDC_OAI_ONB_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Onboard,Complete your Catalyst Center Installation,IBN_CDC_OAI_ONB_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_OPT_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_OPT_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Use,Monitor Network Health,IBN_CDC_OAI_USE_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Use,Monitor Client Health,IBN_CDC_OAI_USE_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Use,Monitor Application Health,IBN_CDC_OAI_USE_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Use,Analyze and Troubleshoot the Network,IBN_CDC_OAI_USE_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Use,Monitor Network Trends and Issues,IBN_CDC_OAI_USE_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_USE_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_USE_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Use,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_USE_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Onboard,Use,Monitor and troubleshoot your network with Machine Reasoning Engine,IBN_CDC_OAI_USE_9
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Adopt,View and Manage Your Network Inventory,IBN_CDC_CNAU_ADO_1
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Adopt,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_ADO_2
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Adopt,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_ADO_3
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Adopt,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_ADO_4
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_ADO_5
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_ADO_6
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Engage,View and Manage Your Network Inventory,IBN_CDC_CNAU_ENG_1
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Engage,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_ENG_2
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Engage,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_ENG_3
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Engage,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_ENG_4
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_ENG_5
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_ENG_6
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_CNAU_IMP_1
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_CNAU_IMP_2
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNAU_IMP_3
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_CNAU_IMP_4
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Implement,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_IMP_5
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_IMP_6
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Implement,Onboard Client Endpoints,IBN_CDC_CNAU_IMP_7
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_IMP_8
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Onboard,Plan your Catalyst Center Project,IBN_CDC_CNAU_ONB_1
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Onboard,Learn about Catalyst Center,IBN_CDC_CNAU_ONB_2
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Onboard,Complete your Catalyst Center Installation,IBN_CDC_CNAU_ONB_3
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Optimize,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_OPT_1
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_OPT_2
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Use,View and Manage Your Network Inventory,IBN_CDC_CNAU_USE_1
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Use,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_USE_2
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Use,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_USE_3
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Use,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_USE_4
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_USE_5
+38396885,Campus Network,Campus Network Automation,58820009,Onboard,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_USE_6
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Adopt,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ADO_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ADO_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Adopt,Scale your Network Infrastructure,IBN_CDC_NPI_ADO_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Engage,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ENG_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ENG_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_ENG_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_NPI_IMP_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_NPI_IMP_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_NPI_IMP_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_NPI_IMP_4
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Implement,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_IMP_5
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_IMP_6
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Implement,Onboard Client Endpoints,IBN_CDC_NPI_IMP_7
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_IMP_8
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Onboard,Plan your Catalyst Center Project,IBN_CDC_NPI_ONB_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Onboard,Learn about Catalyst Center,IBN_CDC_NPI_ONB_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Onboard,Complete your Catalyst Center Installation,IBN_CDC_NPI_ONB_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Optimize,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_OPT_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_OPT_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Use,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_USE_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_USE_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Onboard,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_USE_3
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Adopt,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_ADO_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Adopt,Scale your Network Infrastructure,IBN_CDC_CNT_ADO_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Engage,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_ENG_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Engage,Scale your Network Infrastructure,IBN_CDC_CNT_ENG_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Implement,Configure your Catayst Center High Availability and Basic System Settings,IBN_CDC_CNT_IMP_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Implement,Configure your Catayst Center Administration Best Practices,IBN_CDC_CNT_IMP_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Implement,Create your Catayst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNT_IMP_3
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Implement,Add Network Devices to Catayst Center Inventory and Assign them to a Site,IBN_CDC_CNT_IMP_4
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Implement,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_IMP_5
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Implement,Onboard Client Endpoints,IBN_CDC_CNT_IMP_6
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Onboard,Learn about Catayst Center,IBN_CDC_CNT_ONB_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Onboard,Plan your Catayst Center Project,IBN_CDC_CNT_ONB_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Onboard,Complete your Catayst Center Installation,IBN_CDC_CNT_ONB_3
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Optimize,Integrate Catayst Center in Ongoing Network Operations Processes,IBN_CDC_CNT_OPT_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Optimize,Upgrade Catayst Center,IBN_CDC_CNT_OPT_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Use,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_USE_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Onboard,Use,Scale your Network Infrastructure,IBN_CDC_CNT_USE_2
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Adopt,Learn about integrations health checks and other use cases,WAN_SAW_ADO_01
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Adopt,Deploy Advanced Features of Application Performance Optimization,WAN_SAW_ADO_02
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Adopt,Deploy Basic Features of Other SD-WAN Use Cases,WAN_SAW_ADO_03
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Engage,Operationalize the Network at Scale,WAN_SAW_ENG_01
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Engage,Learn About Advanced Features and Best Practices for Cisco SD-WAN Secure Automated WAN,WAN_SAW_ENG_02
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Implement,Verify the SD-WAN Controller Installation,WAN_SAW_IMP_01
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Implement,Develop the Feature Device and Local Policy Templates,WAN_SAW_IMP_02
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Implement,Create vSmart Centralized Policies for Secure Automated WAN,WAN_SAW_IMP_03
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Implement,Create additional sites with WAN Edge routers,WAN_SAW_IMP_05
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Onboard,Learn About Cisco SD-WAN Secure Automated WAN,WAN_SAW_ONB_01
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Onboard,Plan Your SD-WAN Project,WAN_SAW_ONB_02
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Onboard,Create the SD-WAN Overlay,WAN_SAW_ONB_03
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Optimize,Learn about Secure Automated WAN Performance and Availability,WAN_SAW_OPT_01
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Optimize,Optimize Performance of SLA Based Application Routing Policy,WAN_SAW_OPT_02
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Use,Learn About using Cisco SD-WAN Secure Automated WAN.,WAN_SAW_USE_01
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Use,Deploy additonal sites with WAN Edges to the SD-WAN,WAN_SAW_USE_02
+40317380,WAN,Secure Automated WAN,40317383,Onboard,Use,Enable Application Performance Routing on the SD-WAN,WAN_SAW_USE_03
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Adopt,Deploy advanced features of Secure DIA,WAN_SDIA_ADO_01
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Adopt,Deploy basic features of other SD-WAN use cases,WAN_SDIA_ADO_02
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Engage,Operationalize the network at scale,WAN_SDIA_ENG_01
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Engage,Learn how to integrate new and advanced features into the design,WAN_SDIA_ENG_02
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Implement,Develop the Secure DIA Device Templates and Policies,WAN_SDIA_IMP_01
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Implement,Configure your Cisco SD-WAN Secure DIA Security Policies,WAN_SDIA_IMP_02
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Implement,Deploy your Cisco SD-WAN Secure DIA Policy,WAN_SDIA_IMP_03
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Onboard,Learn about Cisco SD-WAN Secure DIA deployment,WAN_SDIA_ONB_01
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Onboard,Plan your SD-WAN Secure DIA deployment,WAN_SDIA_ONB_02
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Onboard,Complete your Cisco SD-WAN Secure DIA Installation - Licencisng Verification,WAN_SDIA_ONB_03
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Onboard,Complete your Cisco SD-WAN Secure DIA Installation - Version Check for Intended Features,WAN_SDIA_ONB_05
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Optimize,Optimize performance and availability of the Secure DIA deployment,WAN_SDIA_OPT_01
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Use,Scale the deployment - Deploy Secure DIA policy across additional sites,WAN_SDIA_USE_01
+40317380,WAN,Secure Direct Internet Access,41269754,Onboard,Use,Monitor and Troubleshoot Secure DIA deployment,WAN_SDIA_USE_02
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Adopt,Pursue Advanced Topics: L4-7 service insertion and PBR,DCN_ACI_NPO_ADP_1
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Adopt,Learn about Deploying Containers in the ACI Fabric,DCN_ACI_NPO_ADP_2
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Adopt,Learn about Cisco ACI Advanced Automation Topics,DCN_ACI_NPO_ADP_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Adopt,Explore the Cisco DC App Center for additional Apps and tools,DCN_ACI_NPO_ADP_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Adopt,Scale the fabric,DCN_ACI_NPO_ADP_6
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Engage,Utilize the ACI Fabric,DCN_ACI_NPO_ENG_2
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Engage,Learn about Cisco ACI Advanced Topics: Security,DCN_ACI_NPO_ENG_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Engage,Learn about Microsegmentation with Cisco ACI,DCN_ACI_NPO_ENG_4
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Engage,Learn how to use automation to scale ACI Fabric,DCN_ACI_NPO_ENG_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Engage,Scale the fabric,DCN_ACI_NPO_ENG_6
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Implement,Provision the ACI Fabric,DCN_ACI_NPO_IMP_1
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Implement,Create and Configure ACI Tenant Network,DCN_ACI_NPO_IMP_2
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Implement,Move the ACI Fabric into Production,DCN_ACI_NPO_IMP_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Implement,Learn about Cisco ACI Deployment Best Practices,DCN_ACI_NPO_IMP_4
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Implement,Learn about Cisco ACI Automation,DCN_ACI_NPO_IMP_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Implement,Set Up Core Services,DCN_ACI_NPO_IMP_6
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Implement,Register the APIC to Smart Licensing and activate it,DCN_ACI_NPO_IMP_7
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Implement,Ensure customer is on a supported software version,DCN_ACI_NPO_IMP_8
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Onboard,Install the Hardware,DCN_ACI_NPO_ONB_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Onboard,Learn about Cisco ACI,DCN_ACI_NPO_ONB_4
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Onboard,Plan and prepare your Cisco ACI deployment,DCN_ACI_NPO_ONB_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Onboard,Learn about Cisco ACI Automation,DCN_ACI_NPO_ONB_6
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Optimize,Optimize Performance and Availability of ACI Fabric,DCN_ACI_NPO_OPT_1
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Optimize,Learn about Cisco ACI and Nexus Dashboard Insights,DCN_ACI_NPO_OPT_2
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Optimize,Pursue Advanced ACI Topics,DCN_ACI_NPO_OPT_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Optimize,Learn about Cisco ACI Advanced Topics - Distributed Networking,DCN_ACI_NPO_OPT_4
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Optimize,Ensure customer is on a supported software version,DCN_ACI_NPO_OPT_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Use,Monitor the ACI Fabric,DCN_ACI_NPO_USE_1
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Use,Learn about the ACI 6.0 software capabilities,DCN_ACI_NPO_USE_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Use,Learn about ACI and 3rd Party Integrations,DCN_ACI_NPO_USE_4
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Use,Troubleshooting ACI Fabrics,DCN_ACI_NPO_USE_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Use,Configure Cisco ACI System Backups,DCN_ACI_NPO_USE_7
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Onboard,Use,Scale the Fabric,DCN_ACI_NPO_USE_8
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Adopt,Planning your Multi-site and Multi-pod Environment,DCN_ACI_DN_ADP_1
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Adopt,Scale the Network Infrastructure,DCN_ACI_DN_ADP_2
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Adopt,Learn about Multi-site and NDO Advanced Features,DCN_ACI_DN_ADP_3
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Adopt,Use new automation features and functionality,DCN_ACI_DN_ADP_4
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Engage,Learn ACI Fabric Performance Tuning Best Practices,DCN_ACI_DN_ENG_1
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Engage,Scale and Operate your Network Infrastructure,DCN_ACI_DN_ENG_2
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Engage,Explore Day2 Features,DCN_ACI_DN_ENG_3
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Engage,Learn how to use automation to scale ACI Fabric,DCN_ACI_DN_ENG_4
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Implement,Set Up Your Fabric and Build the Logical Configuration,DCN_ACI_DN_IMP_1
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Implement,Learn about Cisco ACI Deployment Best Practices,DCN_ACI_DN_IMP_2
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Implement,Activate Licenses and Move the ACI Fabric into Production,DCN_ACI_DN_IMP_3
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Implement,Review ACI Distributed Networking deployment options,DCN_ACI_DN_IMP_4
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Implement,Install Preferred Automation Platform,DCN_ACI_DN_IMP_5
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Onboard,Learn about Cisco ACI Distributed Networking deployment options,DCN_ACI_DN_ONB_1
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Onboard,Plan your Cisco ACI Distributed Network deployment,DCN_ACI_DN_ONB_2
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Onboard,Install the Hardware,DCN_ACI_DN_ONB_3
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Onboard,Learn about Cisco ACI Automation,DCN_ACI_DN_ONB_4
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Optimize,Optimize and Upgrade the Network,DCN_ACI_DN_OPT_1
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Optimize,Upgrade using NDO,DCN_ACI_DN_OPT_2
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Optimize,Deep Dive into NDO Fabric Upgrades,DCN_ACI_DN_OPT_3
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Optimize,Perform a Health Check on Multisite Fabrics,DCN_ACI_DN_OPT_4
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Use,Scale your Network Infrastructure,DCN_ACI_DN_USE_3
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Use,Learn about ACI's Remote Leaf Feature,DCN_ACI_DN_USE_4
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Use,Expand Knowledge of NDO Capabilities,DCN_ACI_DN_USE_5
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Use,Configure Cisco ACI System Backups,DCN_ACI_DN_USE_6
+40485321,Cloud Network,Distributed Networking,40485330,Onboard,Use,Automate Workflows and Playbooks,DCN_ACI_DN_USE_7
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Adopt,Leverage Advanced Topics,DCC_SOP_ADP_1
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Adopt,Login in to your Intersight Dashboard,DCC_SOP_ADP_2
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Engage,Monitor Compute Environment,DCC_SOP_ENG_1
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Engage,Login in to your Intersight Dashboard,DCC_SOP_ENG_2
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Implement,Plan the deployment,DCC_SOP_IMP_1
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Onboard,Understand Cisco Intersight,DCC_SOP_ONB_1
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Onboard,Understand Cisco Intersight Use Cases,DCC_SOP_ONB_2
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Onboard,Plan Architecture Transformation,DCC_SOP_ONB_3
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Onboard,Create Intersight Account,DCC_SOP_ONB_4
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Optimize,Implement Performance Tuning Best Practices,DCC_SOP_OPT_1
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Optimize,Leverage Advanced Topics,DCC_SOP_OPT_2
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Use,Login in to your Intersight Dashboard,DCC_SOP_USE_1
+50320048,Data Center Compute,Simplified Operations,50320051,Onboard,Use,Claim Devices or leverage licenses,DCC_SOP_USE_2
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Adopt,Create A What-If Plan Scenario,DCC_WO_ADO_1
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Adopt,Execute Move Actions In IWO,DCC_WO_ADO_2
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Adopt,Execute Resize Actions In IWO,DCC_WO_ADO_3
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Engage,Create A What-If Plan Scenario And Continue To Execute More Actions,DCC_WO_ENG_1
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Engage,Create Named Policies To Customize IWO,DCC_WO_ENG_2
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Implement,Plan Your Deployment,DCC_WO_IMP_1
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Implement,Plan A List Of Targets To Claim,DCC_WO_IMP_2
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Implement,Install Cisco Intersight Assist Virtual Appliance,DCC_WO_IMP_3
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Onboard,Understand Cisco Intersight Workload Optimizer,DCC_WO_ONB_1
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Onboard,Understand Cisco Intersight Workload Optimizer Use Cases,DCC_WO_ONB_2
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Onboard,Create Your Intersight Account,DCC_WO_ONB_3
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Optimize,Execute Resize Down Actions,DCC_WO_OPT_1
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Optimize,Check If Auto-Placement Policy Has Been Enabled,DCC_WO_OPT_2
+50320048,Data Center Compute,Workload Optimization,50320053,Onboard,Use,Analyze The IWO Generated Resource Service Chain Mappings And Pending Actions For IWO Targets,DCC_WO_USE_1
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Onboard,Learn about Nexus Dasboard and it's deployment models,DCN_DT_ONB_1
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Onboard,Become familiar with Nexus Dashboard Fabric Controller and different fabric types,DCN_DT_ONB_2
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Onboard,Complete ND and NDFC application installation,DCN_DT_ONB_4
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Onboard,Telemetry recieved from CA Agent,DCN_DT_ONB_3
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Engage,Check software version,DCN_DT_ENG_1
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Engage,Scale your Network Infrastructure,DCN_DT_ENG_2
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Adopt,Check software version,DCN_DT_ADP_1
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Adopt,Scale your Network Infrastructure,DCN_DT_ADP_2
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Use,Scale your Network Infrastructure,DCN_DT_USE_2
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Use,Validate telemetry requirements and check software version,DCN_DT_USE_1
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Implement,Create a NDFC Fabric template and provision the switches within the fabric,DCN_DT_IMP_1
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Implement,Network/VRF creation,DCN_DT_IMP_2
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Implement,Move the VXLAN EVPN fabric into production,DCN_DT_IMP_3
+40485321,Cloud Network,DCN Digital Transformation OnRamp,63567869,Onboard,Optimize,Check software version,DCN_DT_OPT_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_ADP_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_ADP_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_ENG_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_ENG_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Engage,Scale your capabilities,IBN_SDA_CNS_ENG_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_SDA_CNS_IMP_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Implement,Configure your Catalyst Center Administration Best Practices,IBN_SDA_CNS_IMP_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_SDA_CNS_IMP_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_SDA_CNS_IMP_4
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Implement,Start you SD-Access Journey by Configuring its Pre-requisites,IBN_SDA_CNS_IMP_5
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Implement,Build your SD-Access Overlay Network with Catalyst Center,IBN_SDA_CNS_IMP_6
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_IMP_7
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Implement,Onboard Client Endpoints,IBN_SDA_CNS_IMP_8
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_IMP_9
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Onboard,Plan your Catalyst Center and SD-Access Project,IBN_SDA_CNS_ONB_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Onboard,Learn about Catalyst Center and SD-Access,IBN_SDA_CNS_ONB_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Onboard,Complete your Catalyst Center Installation,IBN_SDA_CNS_ONB_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_OPT_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_OPT_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Use,Enable Additional SD-Access Features,IBN_SDA_CNS_USE_1
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Use,Install your Cisco ISE or AAA Servers and Integrate with Catalyst Center,IBN_SDA_CNS_USE_2
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Use,Setup your Micro-Segmentation Pre-requisites,IBN_SDA_CNS_USE_3
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Use,Build and Optimize your Micro-Segmentation Strategy,IBN_SDA_CNS_USE_4
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_SDA_CNS_USE_5
+38396885,Campus Network,Campus Network Segmentation,39304067,Optimize,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_SDA_CNS_USE_6
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_ADO_1
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_ADO_2
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_ENG_1
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_ENG_2
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_CNV_IMP_1
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_CNV_IMP_2
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNV_IMP_3
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_CNV_IMP_4
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_IMP_5
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Implement,Onboard Client Endpoints,IBN_CDC_CNV_IMP_6
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_IMP_7
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Onboard,Plan your Catalyst Center Project,IBN_CDC_CNV_ONB_1
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Onboard,Learn about Catalyst Center,IBN_CDC_CNV_ONB_2
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Onboard,Complete your Catalyst Center Installation,IBN_CDC_CNV_ONB_3
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_OPT_1
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_OPT_2
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNV_USE_1
+38396885,Campus Network,Campus Network Visibility,58819938,Optimize,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNV_USE_2
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Adopt,View and Manage Your Network Inventory,IBN_CDC_CNAU_ADO_1
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Adopt,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_ADO_2
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Adopt,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_ADO_3
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Adopt,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_ADO_4
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_ADO_5
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_ADO_6
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Engage,View and Manage Your Network Inventory,IBN_CDC_CNAU_ENG_1
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Engage,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_ENG_2
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Engage,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_ENG_3
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Engage,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_ENG_4
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_ENG_5
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_ENG_6
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_CNAU_IMP_1
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_CNAU_IMP_2
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNAU_IMP_3
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_CNAU_IMP_4
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Implement,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_IMP_5
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_IMP_6
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Implement,Onboard Client Endpoints,IBN_CDC_CNAU_IMP_7
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_IMP_8
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Onboard,Plan your Catalyst Center Project,IBN_CDC_CNAU_ONB_1
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Onboard,Learn about Catalyst Center,IBN_CDC_CNAU_ONB_2
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Onboard,Complete your Catalyst Center Installation,IBN_CDC_CNAU_ONB_3
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Optimize,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_OPT_1
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_OPT_2
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Use,View and Manage Your Network Inventory,IBN_CDC_CNAU_USE_1
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Use,Automate Infrastructure Security Management with Predictive Security and Bug Protection,IBN_CDC_CNAU_USE_2
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Use,Automate Network Device Software Upgrades with Software Image Management OR Assign APs to site,IBN_CDC_CNAU_USE_3
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Use,Build Network Designs Provision your Wired or Wireless Network Devices and Automate your Network Operations,IBN_CDC_CNAU_USE_4
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_CNAU_USE_5
+38396885,Campus Network,Campus Network Automation,58820009,Optimize,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_CNAU_USE_6
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Adopt,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ADO_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ADO_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Adopt,Scale your Network Infrastructure,IBN_CDC_NPI_ADO_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Engage,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ENG_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ENG_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_ENG_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_NPI_IMP_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_NPI_IMP_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_NPI_IMP_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_NPI_IMP_4
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Implement,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_IMP_5
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_IMP_6
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Implement,Onboard Client Endpoints,IBN_CDC_NPI_IMP_7
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_IMP_8
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Onboard,Plan your Catalyst Center Project,IBN_CDC_NPI_ONB_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Onboard,Learn about Catalyst Center,IBN_CDC_NPI_ONB_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Onboard,Complete your Catalyst Center Installation,IBN_CDC_NPI_ONB_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Optimize,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_OPT_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_OPT_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Use,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_USE_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_USE_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Optimize,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_USE_3
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Adopt,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_ADO_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Adopt,Scale your Network Infrastructure,IBN_CDC_CNT_ADO_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Engage,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_ENG_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Engage,Scale your Network Infrastructure,IBN_CDC_CNT_ENG_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Implement,Configure your Catayst Center High Availability and Basic System Settings,IBN_CDC_CNT_IMP_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Implement,Configure your Catayst Center Administration Best Practices,IBN_CDC_CNT_IMP_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Implement,Create your Catayst Center Network Hierarchy and Configure Network Settings,IBN_CDC_CNT_IMP_3
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Implement,Add Network Devices to Catayst Center Inventory and Assign them to a Site,IBN_CDC_CNT_IMP_4
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Implement,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_IMP_5
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Implement,Onboard Client Endpoints,IBN_CDC_CNT_IMP_6
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Onboard,Learn about Catayst Center,IBN_CDC_CNT_ONB_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Onboard,Plan your Catayst Center Project,IBN_CDC_CNT_ONB_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Onboard,Complete your Catayst Center Installation,IBN_CDC_CNT_ONB_3
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Optimize,Integrate Catayst Center in Ongoing Network Operations Processes,IBN_CDC_CNT_OPT_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Optimize,Upgrade Catayst Center,IBN_CDC_CNT_OPT_2
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Use,Upgrade Catayst Center to Enable New Capabilities,IBN_CDC_CNT_USE_1
+38396885,Campus Network,Campus Network Digital Transformation Onramp,59471362,Optimize,Use,Scale your Network Infrastructure,IBN_CDC_CNT_USE_2
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Adopt,Learn about integrations health checks and other use cases,WAN_SAW_ADO_01
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Adopt,Deploy Advanced Features of Application Performance Optimization,WAN_SAW_ADO_02
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Adopt,Deploy Basic Features of Other SD-WAN Use Cases,WAN_SAW_ADO_03
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Engage,Operationalize the Network at Scale,WAN_SAW_ENG_01
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Engage,Learn About Advanced Features and Best Practices for Cisco SD-WAN Secure Automated WAN,WAN_SAW_ENG_02
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Implement,Verify the SD-WAN Controller Installation,WAN_SAW_IMP_01
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Implement,Develop the Feature Device and Local Policy Templates,WAN_SAW_IMP_02
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Implement,Create vSmart Centralized Policies for Secure Automated WAN,WAN_SAW_IMP_03
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Implement,Create additional sites with WAN Edge routers,WAN_SAW_IMP_05
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Onboard,Learn About Cisco SD-WAN Secure Automated WAN,WAN_SAW_ONB_01
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Onboard,Plan Your SD-WAN Project,WAN_SAW_ONB_02
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Onboard,Create the SD-WAN Overlay,WAN_SAW_ONB_03
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Optimize,Learn about Secure Automated WAN Performance and Availability,WAN_SAW_OPT_01
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Optimize,Optimize Performance of SLA Based Application Routing Policy,WAN_SAW_OPT_02
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Use,Learn About using Cisco SD-WAN Secure Automated WAN.,WAN_SAW_USE_01
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Use,Deploy additonal sites with WAN Edges to the SD-WAN,WAN_SAW_USE_02
+40317380,WAN,Secure Automated WAN,40317383,Optimize,Use,Enable Application Performance Routing on the SD-WAN,WAN_SAW_USE_03
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Adopt,Scale your Network Infrastructure,WAN_AUTO_WDTO_ADO_02
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Engage,Scale your Network Infrastructure,WAN_AUTO_WDTO_ENG_02
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Implement,Configure your Cisco SD-WAN Manager Basic System Settings,WAN_AUTO_WDTO_IMP_01
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Implement,Configure your Cisco SD-WAN Manager Data Collection Services,WAN_AUTO_WDTO_IMP_02
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Implement,Onboard WAN Edge devices,WAN_AUTO_WDTO_IMP_03
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Implement,SD-WAN Device Telemetry has been enabled and is being received by Cisco,WAN_AUTO_WDTO_IMP_04
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Onboard,Learn about Cisco One Agent SD-WAN Manager and Validator(s),WAN_AUTO_WDTO_ONB_01
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Onboard,Plan for your Cisco One Agent SD-WAN Manager and Validator(s),WAN_AUTO_WDTO_ONB_02
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Onboard,Complete your Cisco One Agent install,WAN_AUTO_WDTO_ONB_03
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Onboard,Complete your Cisco SD-WAN Manager and Validator(s) install,WAN_AUTO_WDTO_ONB_04
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Optimize,Scale your Network Infrastructure,WAN_AUTO_WDTO_OPT_01
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Optimize,Integrate Cisco SD-WAN Manager in Ongoing Network Operations Processes,WAN_AUTO_WDTO_OPT_02
+40317380,WAN,WAN Digital Transformation Onramp,63567778,Optimize,Use,Scale your Network Infrastructure,WAN_AUTO_WDTO_USE_02
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Adopt,Pursue Advanced Topics: L4-7 service insertion and PBR,DCN_ACI_NPO_ADP_1
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Adopt,Learn about Deploying Containers in the ACI Fabric,DCN_ACI_NPO_ADP_2
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Adopt,Learn about Cisco ACI Advanced Automation Topics,DCN_ACI_NPO_ADP_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Adopt,Explore the Cisco DC App Center for additional Apps and tools,DCN_ACI_NPO_ADP_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Adopt,Scale the fabric,DCN_ACI_NPO_ADP_6
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Engage,Utilize the ACI Fabric,DCN_ACI_NPO_ENG_2
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Engage,Learn about Cisco ACI Advanced Topics: Security,DCN_ACI_NPO_ENG_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Engage,Learn about Microsegmentation with Cisco ACI,DCN_ACI_NPO_ENG_4
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Engage,Learn how to use automation to scale ACI Fabric,DCN_ACI_NPO_ENG_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Engage,Scale the fabric,DCN_ACI_NPO_ENG_6
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Implement,Provision the ACI Fabric,DCN_ACI_NPO_IMP_1
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Implement,Create and Configure ACI Tenant Network,DCN_ACI_NPO_IMP_2
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Implement,Move the ACI Fabric into Production,DCN_ACI_NPO_IMP_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Implement,Learn about Cisco ACI Deployment Best Practices,DCN_ACI_NPO_IMP_4
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Implement,Learn about Cisco ACI Automation,DCN_ACI_NPO_IMP_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Implement,Set Up Core Services,DCN_ACI_NPO_IMP_6
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Implement,Register the APIC to Smart Licensing and activate it,DCN_ACI_NPO_IMP_7
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Implement,Ensure customer is on a supported software version,DCN_ACI_NPO_IMP_8
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Onboard,Install the Hardware,DCN_ACI_NPO_ONB_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Onboard,Learn about Cisco ACI,DCN_ACI_NPO_ONB_4
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Onboard,Plan and prepare your Cisco ACI deployment,DCN_ACI_NPO_ONB_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Onboard,Learn about Cisco ACI Automation,DCN_ACI_NPO_ONB_6
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Optimize,Optimize Performance and Availability of ACI Fabric,DCN_ACI_NPO_OPT_1
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Optimize,Learn about Cisco ACI and Nexus Dashboard Insights,DCN_ACI_NPO_OPT_2
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Optimize,Pursue Advanced ACI Topics,DCN_ACI_NPO_OPT_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Optimize,Learn about Cisco ACI Advanced Topics - Distributed Networking,DCN_ACI_NPO_OPT_4
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Optimize,Ensure customer is on a supported software version,DCN_ACI_NPO_OPT_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Use,Monitor the ACI Fabric,DCN_ACI_NPO_USE_1
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Use,Learn about the ACI 6.0 software capabilities,DCN_ACI_NPO_USE_3
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Use,Learn about ACI and 3rd Party Integrations,DCN_ACI_NPO_USE_4
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Use,Troubleshooting ACI Fabrics,DCN_ACI_NPO_USE_5
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Use,Configure Cisco ACI System Backups,DCN_ACI_NPO_USE_7
+40485321,Cloud Network,Network Provisioning and Operations,40485324,Optimize,Use,Scale the Fabric,DCN_ACI_NPO_USE_8
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Adopt,Leverage Advanced Topics,DCC_SOP_ADP_1
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Adopt,Login in to your Intersight Dashboard,DCC_SOP_ADP_2
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Engage,Monitor Compute Environment,DCC_SOP_ENG_1
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Engage,Login in to your Intersight Dashboard,DCC_SOP_ENG_2
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Implement,Plan the deployment,DCC_SOP_IMP_1
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Onboard,Understand Cisco Intersight,DCC_SOP_ONB_1
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Onboard,Understand Cisco Intersight Use Cases,DCC_SOP_ONB_2
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Onboard,Plan Architecture Transformation,DCC_SOP_ONB_3
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Onboard,Create Intersight Account,DCC_SOP_ONB_4
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Optimize,Implement Performance Tuning Best Practices,DCC_SOP_OPT_1
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Optimize,Leverage Advanced Topics,DCC_SOP_OPT_2
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Use,Login in to your Intersight Dashboard,DCC_SOP_USE_1
+50320048,Data Center Compute,Simplified Operations,50320051,Optimize,Use,Claim Devices or leverage licenses,DCC_SOP_USE_2
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Implement,Learn about Cisco ACI Deployment Best Practices,DCN_ACI_DN_IMP_2
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Implement,Set Up Your Fabric and Build the Logical Configuration,DCN_ACI_DN_IMP_1
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Implement,Install Preferred Automation Platform,DCN_ACI_DN_IMP_5
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Implement,Review ACI Distributed Networking deployment options,DCN_ACI_DN_IMP_4
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Implement,Activate Licenses and Move the ACI Fabric into Production,DCN_ACI_DN_IMP_3
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Optimize,Perform a Health Check on Multisite Fabrics,DCN_ACI_DN_OPT_4
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Optimize,Deep Dive into NDO Fabric Upgrades,DCN_ACI_DN_OPT_3
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Optimize,Optimize and Upgrade the Network,DCN_ACI_DN_OPT_1
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Optimize,Upgrade using NDO,DCN_ACI_DN_OPT_2
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Engage,Learn how to use automation to scale ACI Fabric,DCN_ACI_DN_ENG_4
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Engage,Scale and Operate your Network Infrastructure,DCN_ACI_DN_ENG_2
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Engage,Learn ACI Fabric Performance Tuning Best Practices,DCN_ACI_DN_ENG_1
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Engage,Explore Day2 Features,DCN_ACI_DN_ENG_3
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Onboard,Plan your Cisco ACI Distributed Network deployment,DCN_ACI_DN_ONB_2
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Onboard,Install the Hardware,DCN_ACI_DN_ONB_3
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Onboard,Learn about Cisco ACI Automation,DCN_ACI_DN_ONB_4
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Onboard,Learn about Cisco ACI Distributed Networking deployment options,DCN_ACI_DN_ONB_1
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Use,Scale your Network Infrastructure,DCN_ACI_DN_USE_3
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Use,Configure Cisco ACI System Backups,DCN_ACI_DN_USE_6
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Use,Learn about ACI's Remote Leaf Feature,DCN_ACI_DN_USE_4
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Use,Expand Knowledge of NDO Capabilities,DCN_ACI_DN_USE_5
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Use,Automate Workflows and Playbooks,DCN_ACI_DN_USE_7
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Adopt,Use new automation features and functionality,DCN_ACI_DN_ADP_4
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Adopt,Scale the Network Infrastructure,DCN_ACI_DN_ADP_2
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Adopt,Planning your Multi-site and Multi-pod Environment,DCN_ACI_DN_ADP_1
+40485321,Cloud Network,Distributed Networking,40485330,Optimize,Adopt,Learn about Multi-site and NDO Advanced Features,DCN_ACI_DN_ADP_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Adopt,Monitor Network Health,IBN_CDC_OAI_ADO_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Adopt,Monitor Client Health,IBN_CDC_OAI_ADO_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Adopt,Monitor Application Health,IBN_CDC_OAI_ADO_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Adopt,Analyze and Troubleshoot the Network,IBN_CDC_OAI_ADO_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Adopt,Monitor Network Trends and Issues,IBN_CDC_OAI_ADO_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_ADO_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Adopt,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_ADO_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Adopt,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_ADO_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Engage,Monitor Network Health,IBN_CDC_OAI_ENG_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Engage,Monitor Client Health,IBN_CDC_OAI_ENG_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Engage,Monitor Application Health,IBN_CDC_OAI_ENG_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Engage,Analyze and Troubleshoot the Network,IBN_CDC_OAI_ENG_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Engage,Monitor Network Trends and Issues,IBN_CDC_OAI_ENG_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_ENG_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_ENG_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Engage,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_ENG_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Engage,Monitor and troubleshoot your network with Machine Reasoning Engine,IBN_CDC_OAI_ENG_9
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_OAI_IMP_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_OAI_IMP_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_OAI_IMP_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_OAI_IMP_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Implement,Configure Assurance Integrations and Reporting,IBN_CDC_OAI_IMP_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_IMP_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Implement,Onboard Client Endpoints,IBN_CDC_OAI_IMP_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_IMP_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Onboard,Plan your Catalyst Center Project,IBN_CDC_OAI_ONB_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Onboard,Learn about Catalyst Center,IBN_CDC_OAI_ONB_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Onboard,Complete your Catalyst Center Installation,IBN_CDC_OAI_ONB_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Optimize,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_OPT_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_OPT_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Use,Monitor Network Health,IBN_CDC_OAI_USE_1
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Use,Monitor Client Health,IBN_CDC_OAI_USE_2
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Use,Monitor Application Health,IBN_CDC_OAI_USE_3
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Use,Analyze and Troubleshoot the Network,IBN_CDC_OAI_USE_4
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Use,Monitor Network Trends and Issues,IBN_CDC_OAI_USE_5
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_OAI_USE_6
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_OAI_USE_7
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Use,Take a deeper look at your devices clients and applications,IBN_CDC_OAI_USE_8
+38396885,Campus Network,Campus Network Observability and Insights,58819940,Use,Use,Monitor and troubleshoot your network with Machine Reasoning Engine,IBN_CDC_OAI_USE_9
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Adopt,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ADO_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Adopt,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ADO_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Adopt,Scale your Network Infrastructure,IBN_CDC_NPI_ADO_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Engage,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_ENG_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Engage,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_ENG_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Engage,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_ENG_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Implement,Configure your Catalyst Center High Availability and Basic System Settings,IBN_CDC_NPI_IMP_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Implement,Configure your Catalyst Center Administration Best Practices,IBN_CDC_NPI_IMP_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Implement,Create your Catalyst Center Network Hierarchy and Configure Network Settings,IBN_CDC_NPI_IMP_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Implement,Add Network Devices to Catalyst Center Inventory and Assign them to a Site,IBN_CDC_NPI_IMP_4
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Implement,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_IMP_5
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Implement,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_IMP_6
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Implement,Onboard Client Endpoints,IBN_CDC_NPI_IMP_7
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Implement,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_IMP_8
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Onboard,Plan your Catalyst Center Project,IBN_CDC_NPI_ONB_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Onboard,Learn about Catalyst Center,IBN_CDC_NPI_ONB_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Onboard,Complete your Catalyst Center Installation,IBN_CDC_NPI_ONB_3
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Optimize,Integrate Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_OPT_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Optimize,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_OPT_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Use,Use the Catalyst Center API and Integrate with Other Platforms,IBN_CDC_NPI_USE_1
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Use,Upgrade Catalyst Center to Enable New Capabilities,IBN_CDC_NPI_USE_2
+38396885,Campus Network,Campus Network Programmability and Integrations,58820011,Use,Use,Use Catalyst Center in Ongoing Network Operations Processes,IBN_CDC_NPI_USE_3
+40317380,WAN,Secure Automated WAN,40317383,Use,Adopt,Learn about integrations health checks and other use cases,WAN_SAW_ADO_01
+40317380,WAN,Secure Automated WAN,40317383,Use,Adopt,Deploy Advanced Features of Application Performance Optimization,WAN_SAW_ADO_02
+40317380,WAN,Secure Automated WAN,40317383,Use,Adopt,Deploy Basic Features of Other SD-WAN Use Cases,WAN_SAW_ADO_03
+40317380,WAN,Secure Automated WAN,40317383,Use,Engage,Operationalize the Network at Scale,WAN_SAW_ENG_01
+40317380,WAN,Secure Automated WAN,40317383,Use,Engage,Learn About Advanced Features and Best Practices for Cisco SD-WAN Secure Automated WAN,WAN_SAW_ENG_02
+40317380,WAN,Secure Automated WAN,40317383,Use,Implement,Verify the SD-WAN Controller Installation,WAN_SAW_IMP_01
+40317380,WAN,Secure Automated WAN,40317383,Use,Implement,Develop the Feature Device and Local Policy Templates,WAN_SAW_IMP_02
+40317380,WAN,Secure Automated WAN,40317383,Use,Implement,Create vSmart Centralized Policies for Secure Automated WAN,WAN_SAW_IMP_03
+40317380,WAN,Secure Automated WAN,40317383,Use,Implement,Create additional sites with WAN Edge routers,WAN_SAW_IMP_05
+40317380,WAN,Secure Automated WAN,40317383,Use,Onboard,Learn About Cisco SD-WAN Secure Automated WAN,WAN_SAW_ONB_01
+40317380,WAN,Secure Automated WAN,40317383,Use,Onboard,Plan Your SD-WAN Project,WAN_SAW_ONB_02
+40317380,WAN,Secure Automated WAN,40317383,Use,Onboard,Create the SD-WAN Overlay,WAN_SAW_ONB_03
+40317380,WAN,Secure Automated WAN,40317383,Use,Optimize,Learn about Secure Automated WAN Performance and Availability,WAN_SAW_OPT_01
+40317380,WAN,Secure Automated WAN,40317383,Use,Optimize,Optimize Performance of SLA Based Application Routing Policy,WAN_SAW_OPT_02
+40317380,WAN,Secure Automated WAN,40317383,Use,Use,Learn About using Cisco SD-WAN Secure Automated WAN.,WAN_SAW_USE_01
+40317380,WAN,Secure Automated WAN,40317383,Use,Use,Deploy additonal sites with WAN Edges to the SD-WAN,WAN_SAW_USE_02
+40317380,WAN,Secure Automated WAN,40317383,Use,Use,Enable Application Performance Routing on the SD-WAN,WAN_SAW_USE_03
+40485321,Cloud Network,Distributed Networking,40485330,Use,Adopt,Planning your Multi-site and Multi-pod Environment,DCN_ACI_DN_ADP_1
+40485321,Cloud Network,Distributed Networking,40485330,Use,Adopt,Scale the Network Infrastructure,DCN_ACI_DN_ADP_2
+40485321,Cloud Network,Distributed Networking,40485330,Use,Adopt,Learn about Multi-site and NDO Advanced Features,DCN_ACI_DN_ADP_3
+40485321,Cloud Network,Distributed Networking,40485330,Use,Adopt,Use new automation features and functionality,DCN_ACI_DN_ADP_4
+40485321,Cloud Network,Distributed Networking,40485330,Use,Engage,Learn ACI Fabric Performance Tuning Best Practices,DCN_ACI_DN_ENG_1
+40485321,Cloud Network,Distributed Networking,40485330,Use,Engage,Scale and Operate your Network Infrastructure,DCN_ACI_DN_ENG_2
+40485321,Cloud Network,Distributed Networking,40485330,Use,Engage,Explore Day2 Features,DCN_ACI_DN_ENG_3
+40485321,Cloud Network,Distributed Networking,40485330,Use,Engage,Learn how to use automation to scale ACI Fabric,DCN_ACI_DN_ENG_4
+40485321,Cloud Network,Distributed Networking,40485330,Use,Implement,Set Up Your Fabric and Build the Logical Configuration,DCN_ACI_DN_IMP_1
+40485321,Cloud Network,Distributed Networking,40485330,Use,Implement,Learn about Cisco ACI Deployment Best Practices,DCN_ACI_DN_IMP_2
+40485321,Cloud Network,Distributed Networking,40485330,Use,Implement,Activate Licenses and Move the ACI Fabric into Production,DCN_ACI_DN_IMP_3
+40485321,Cloud Network,Distributed Networking,40485330,Use,Implement,Review ACI Distributed Networking deployment options,DCN_ACI_DN_IMP_4
+40485321,Cloud Network,Distributed Networking,40485330,Use,Implement,Install Preferred Automation Platform,DCN_ACI_DN_IMP_5
+40485321,Cloud Network,Distributed Networking,40485330,Use,Onboard,Learn about Cisco ACI Distributed Networking deployment options,DCN_ACI_DN_ONB_1
+40485321,Cloud Network,Distributed Networking,40485330,Use,Onboard,Plan your Cisco ACI Distributed Network deployment,DCN_ACI_DN_ONB_2
+40485321,Cloud Network,Distributed Networking,40485330,Use,Onboard,Install the Hardware,DCN_ACI_DN_ONB_3
+40485321,Cloud Network,Distributed Networking,40485330,Use,Onboard,Learn about Cisco ACI Automation,DCN_ACI_DN_ONB_4
+40485321,Cloud Network,Distributed Networking,40485330,Use,Optimize,Optimize and Upgrade the Network,DCN_ACI_DN_OPT_1
+40485321,Cloud Network,Distributed Networking,40485330,Use,Optimize,Upgrade using NDO,DCN_ACI_DN_OPT_2
+40485321,Cloud Network,Distributed Networking,40485330,Use,Optimize,Deep Dive into NDO Fabric Upgrades,DCN_ACI_DN_OPT_3
+40485321,Cloud Network,Distributed Networking,40485330,Use,Optimize,Perform a Health Check on Multisite Fabrics,DCN_ACI_DN_OPT_4
+40485321,Cloud Network,Distributed Networking,40485330,Use,Use,Scale your Network Infrastructure,DCN_ACI_DN_USE_3
+40485321,Cloud Network,Distributed Networking,40485330,Use,Use,Learn about ACI's Remote Leaf Feature,DCN_ACI_DN_USE_4
+40485321,Cloud Network,Distributed Networking,40485330,Use,Use,Expand Knowledge of NDO Capabilities,DCN_ACI_DN_USE_5
+40485321,Cloud Network,Distributed Networking,40485330,Use,Use,Configure Cisco ACI System Backups,DCN_ACI_DN_USE_6
+40485321,Cloud Network,Distributed Networking,40485330,Use,Use,Automate Workflows and Playbooks,DCN_ACI_DN_USE_7
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Adopt,Leverage Advanced Topics,DCC_SOP_ADP_1
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Adopt,Login in to your Intersight Dashboard,DCC_SOP_ADP_2
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Engage,Monitor Compute Environment,DCC_SOP_ENG_1
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Engage,Login in to your Intersight Dashboard,DCC_SOP_ENG_2
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Implement,Plan the deployment,DCC_SOP_IMP_1
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Onboard,Understand Cisco Intersight,DCC_SOP_ONB_1
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Onboard,Understand Cisco Intersight Use Cases,DCC_SOP_ONB_2
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Onboard,Plan Architecture Transformation,DCC_SOP_ONB_3
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Onboard,Create Intersight Account,DCC_SOP_ONB_4
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Optimize,Implement Performance Tuning Best Practices,DCC_SOP_OPT_1
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Optimize,Leverage Advanced Topics,DCC_SOP_OPT_2
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Use,Login in to your Intersight Dashboard,DCC_SOP_USE_1
+50320048,Data Center Compute,Simplified Operations,50320051,Use,Use,Claim Devices or leverage licenses,DCC_SOP_USE_2
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Adopt,Create A What-If Plan Scenario,DCC_WO_ADO_1
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Adopt,Execute Move Actions In IWO,DCC_WO_ADO_2
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Adopt,Execute Resize Actions In IWO,DCC_WO_ADO_3
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Engage,Create A What-If Plan Scenario And Continue To Execute More Actions,DCC_WO_ENG_1
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Engage,Create Named Policies To Customize IWO,DCC_WO_ENG_2
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Implement,Plan Your Deployment,DCC_WO_IMP_1
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Implement,Plan A List Of Targets To Claim,DCC_WO_IMP_2
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Implement,Install Cisco Intersight Assist Virtual Appliance,DCC_WO_IMP_3
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Onboard,Understand Cisco Intersight Workload Optimizer,DCC_WO_ONB_1
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Onboard,Understand Cisco Intersight Workload Optimizer Use Cases,DCC_WO_ONB_2
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Onboard,Create Your Intersight Account,DCC_WO_ONB_3
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Optimize,Execute Resize Down Actions,DCC_WO_OPT_1
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Optimize,Check If Auto-Placement Policy Has Been Enabled,DCC_WO_OPT_2
+50320048,Data Center Compute,Workload Optimization,50320053,Use,Use,Analyze The IWO Generated Resource Service Chain Mappings And Pending Actions For IWO Targets,DCC_WO_USE_1
